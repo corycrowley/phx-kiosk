@@ -8,8 +8,8 @@ new Vue( {
     el: '#app',
 
     data: {
-        eventLocation: '9',
-        eventCategory: '',
+        eventLocation: '9', // Harris Center
+        eventCategory: '', // Any Category
         eventsCount: '',
         events: {},
         posts: {}
