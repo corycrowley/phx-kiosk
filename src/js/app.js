@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Axios from 'axios'
 
-let eventsApiURL = 'http://phxuniversity.wpengine.com/wp-json/wp/v2/events/?_embed&per_page=10'
-let postsApiUrl = 'http://phxuniversity.wpengine.com/wp-json/wp/v2/posts/?_embed&per_page=10'
+let eventsApiURL = 'https://phxuniversity.wpengine.com/wp-json/wp/v2/events/?_embed&per_page=10'
+let postsApiUrl = 'https://phxuniversity.wpengine.com/wp-json/wp/v2/posts/?_embed&per_page=10'
 
 new Vue( {
     el: '#app',
